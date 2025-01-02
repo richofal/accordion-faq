@@ -14,13 +14,6 @@ body {
   line-height: 1;
 }
 
-.accordion-item {
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-  column-gap: 24px;
-  row-gap: 32px;
-  grid-template-columns: auto 1fr auto;
-}
-
 .answer {
   grid-column: 2 / -1;
 }

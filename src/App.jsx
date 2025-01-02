@@ -1,7 +1,10 @@
+import Accordion from "./components/Accordion";
+import faqs from "./data/faqs";
+
 function App() {
   return (
     <>
-      <div>Setup Project</div>
+      <Accordion data={faqs} />
     </>
   );
 }
